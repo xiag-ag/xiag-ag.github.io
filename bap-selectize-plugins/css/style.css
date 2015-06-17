@@ -1,0 +1,37 @@
+.td-editable {
+  padding: 0 !important;
+}
+.td-editable .form-control {
+  padding: 8px;
+  height: 36px;
+  background-color: #faf4e2;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.td-editable .selectize-control * {
+  color: #555;
+}
+.td-editable .selectize-control .selectize-input,
+.td-editable .selectize-control .selectize-input.input-active {
+  display: block !important;
+  padding: 8px !important;
+  height: 36px !important;
+  background-color: #faf4e2 !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.td-editable .selectize-control.multi .selectize-input .item,
+.td-editable .selectize-control.multi .selectize-input .item.active {
+  background-color: #f3e4b6;
+}
+.td-editable .selectize-control .selectize-dropdown {
+  border-radius: 0;
+  margin: 0;
+  background-color: #faf4e2;
+}
+.td-editable .selectize-control .selectize-dropdown .option.active,
+.td-editable .selectize-control .selectize-dropdown .option.selected {
+  background-color: #f3e4b6;
+}

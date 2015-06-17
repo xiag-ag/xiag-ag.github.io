@@ -1,0 +1,7 @@
+.selectize-dropdown.plugin-quick_list .selectize-quick-list:after {
+  display: block;
+  content: ' ';
+  height: 1px;
+  margin: 5px 0;
+  background-color: #ddd;
+}
